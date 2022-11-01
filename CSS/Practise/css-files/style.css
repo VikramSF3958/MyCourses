@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+h1 {
+
+    margin: 0.5vw;
+    padding: 5px;
+    color: #290965;
+    font-size: 5vw;  /*vw means viewport*/
+
+}
+
+body.index
+{
+    background-color: #7fffd4;
+}
+
+li 
+{
+    font-weight: bold;
+}
+
+#Product h3{
+
+    color:#112A46;
+   
+}
+
+#Description h3{
+
+    color:#112A46;
+   
+}
+
+
+#Product {
+    color: #0F0F87;
+    font-style: italic;
+}
+
+#Description {
+    color: #0F0F87;
+    font-style: italic;
+}
+
+h3 
+{   
+    border-style: double;
+    border-color: #112A46;
+    border-radius: 2em;
+}
+
+.container{
+    margin: 0.5vw;
+    padding: 5px;
+}
+
+body.typo
+{   
+    
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+    padding: 0.5em;
+    margin: 10%;
+    
+    font-size: 1.5vw;
+    font-family: 'Fasthand', cursive;
+    
+}
+
+#links p a:focus, a:hover
+{
+    background: darkkhaki;
+}
+
+body.pos
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+
+.outer-container
+{
+    border: 3px dashed #000;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+}
+
+.inner-container{
+
+    border: 2px solid #00f;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+}
+
+.box 
+{
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    padding: 1rem;
+}

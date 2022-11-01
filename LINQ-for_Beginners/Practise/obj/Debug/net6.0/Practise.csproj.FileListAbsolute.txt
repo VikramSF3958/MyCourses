@@ -1,0 +1,15 @@
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\bin\Debug\net6.0\Practise.exe
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\bin\Debug\net6.0\Practise.deps.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\bin\Debug\net6.0\Practise.runtimeconfig.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\bin\Debug\net6.0\Practise.dll
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\bin\Debug\net6.0\Practise.pdb
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\obj\Debug\net6.0\Practise.csproj.AssemblyReference.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\obj\Debug\net6.0\Practise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\obj\Debug\net6.0\Practise.AssemblyInfoInputs.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\obj\Debug\net6.0\Practise.AssemblyInfo.cs
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\obj\Debug\net6.0\Practise.csproj.CoreCompileInputs.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\obj\Debug\net6.0\Practise.dll
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\obj\Debug\net6.0\refint\Practise.dll
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\obj\Debug\net6.0\Practise.pdb
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\obj\Debug\net6.0\Practise.genruntimeconfig.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\LINQ-for_Beginners\Practise\obj\Debug\net6.0\ref\Practise.dll

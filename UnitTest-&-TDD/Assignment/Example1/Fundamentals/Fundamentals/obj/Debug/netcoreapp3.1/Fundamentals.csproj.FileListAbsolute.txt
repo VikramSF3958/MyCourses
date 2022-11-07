@@ -1,0 +1,14 @@
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\bin\Debug\netcoreapp3.1\Fundamentals.exe
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\bin\Debug\netcoreapp3.1\Fundamentals.deps.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\bin\Debug\netcoreapp3.1\Fundamentals.runtimeconfig.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\bin\Debug\netcoreapp3.1\Fundamentals.runtimeconfig.dev.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\bin\Debug\netcoreapp3.1\Fundamentals.dll
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\bin\Debug\netcoreapp3.1\Fundamentals.pdb
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\obj\Debug\netcoreapp3.1\Fundamentals.csproj.AssemblyReference.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\obj\Debug\netcoreapp3.1\Fundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\obj\Debug\netcoreapp3.1\Fundamentals.AssemblyInfoInputs.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\obj\Debug\netcoreapp3.1\Fundamentals.AssemblyInfo.cs
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\obj\Debug\netcoreapp3.1\Fundamentals.csproj.CoreCompileInputs.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\obj\Debug\netcoreapp3.1\Fundamentals.dll
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\obj\Debug\netcoreapp3.1\Fundamentals.pdb
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example1\Fundamentals\Fundamentals\obj\Debug\netcoreapp3.1\Fundamentals.genruntimeconfig.cache

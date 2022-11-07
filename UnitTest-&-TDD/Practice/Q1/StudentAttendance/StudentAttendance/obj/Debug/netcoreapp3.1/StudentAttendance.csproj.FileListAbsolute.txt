@@ -1,0 +1,14 @@
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\bin\Debug\netcoreapp3.1\StudentAttendance.exe
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\bin\Debug\netcoreapp3.1\StudentAttendance.deps.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\bin\Debug\netcoreapp3.1\StudentAttendance.runtimeconfig.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\bin\Debug\netcoreapp3.1\StudentAttendance.runtimeconfig.dev.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\bin\Debug\netcoreapp3.1\StudentAttendance.dll
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\bin\Debug\netcoreapp3.1\StudentAttendance.pdb
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\obj\Debug\netcoreapp3.1\StudentAttendance.csproj.AssemblyReference.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\obj\Debug\netcoreapp3.1\StudentAttendance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\obj\Debug\netcoreapp3.1\StudentAttendance.AssemblyInfoInputs.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\obj\Debug\netcoreapp3.1\StudentAttendance.AssemblyInfo.cs
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\obj\Debug\netcoreapp3.1\StudentAttendance.csproj.CoreCompileInputs.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\obj\Debug\netcoreapp3.1\StudentAttendance.dll
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\obj\Debug\netcoreapp3.1\StudentAttendance.pdb
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Practice\Q1\StudentAttendance\StudentAttendance\obj\Debug\netcoreapp3.1\StudentAttendance.genruntimeconfig.cache

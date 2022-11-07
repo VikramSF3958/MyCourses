@@ -1,0 +1,14 @@
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\obj\Debug\netcoreapp3.1\OrderCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\obj\Debug\netcoreapp3.1\OrderCalculator.AssemblyInfoInputs.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\obj\Debug\netcoreapp3.1\OrderCalculator.AssemblyInfo.cs
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\obj\Debug\netcoreapp3.1\OrderCalculator.csproj.CoreCompileInputs.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\bin\Debug\netcoreapp3.1\OrderCalculator.exe
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\bin\Debug\netcoreapp3.1\OrderCalculator.deps.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\bin\Debug\netcoreapp3.1\OrderCalculator.runtimeconfig.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\bin\Debug\netcoreapp3.1\OrderCalculator.runtimeconfig.dev.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\bin\Debug\netcoreapp3.1\OrderCalculator.dll
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\bin\Debug\netcoreapp3.1\OrderCalculator.pdb
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\obj\Debug\netcoreapp3.1\OrderCalculator.dll
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\obj\Debug\netcoreapp3.1\OrderCalculator.pdb
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\obj\Debug\netcoreapp3.1\OrderCalculator.genruntimeconfig.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\InsideTeamTraining\Courses\UnitTest-&-TDD\Assignment\Example2\OrderCalculator\OrderCalculator\obj\Debug\netcoreapp3.1\OrderCalculator.csproj.AssemblyReference.cache

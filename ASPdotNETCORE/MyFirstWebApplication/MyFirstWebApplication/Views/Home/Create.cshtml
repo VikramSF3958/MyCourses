@@ -1,0 +1,16 @@
+﻿@model Employee
+
+@{ 
+    ViewBag.Title = "Create Employee";
+}
+
+<form asp-controller ="Home" asp-action="Create" method="post" class="was-validated">
+    <div class="mb-3 mt-3">
+        <label asp-for="Name" class="form-label"></label>
+        <input type="text" class="form-control" id="Name" placeholder="Enter Your Name" asp-for="Name" required>
+        <span asp-validation-for="Name"></span>
+        <div class="valid-feedback">Valid.</div>
+        <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <button type="submit" class="btn btn-primary">Create</button>
+</form>

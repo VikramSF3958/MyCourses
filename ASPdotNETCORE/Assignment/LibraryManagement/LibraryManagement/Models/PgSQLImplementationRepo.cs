@@ -14,6 +14,18 @@ namespace LibraryManagement.Models
             this._context = context;
         }
 
+        public Books Add(Books book)
+        {
+            if (book == null)
+            {
+                throw new NullReferenceException("Book is Data is Null");
+            }
+            book.Bookid = _context.Books.Max( e=> e.Bookid) + 1;
+            _context.Books.Add(book);
+            _context.SaveChanges();
+            return book;
+        }
+
         public Books GetBookById(int bookId)
         {
             Books book = _context.Books.Find(bookId);

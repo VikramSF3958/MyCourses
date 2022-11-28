@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GVOrS+/HHUGSUq7EkCi/HA1qIZfe/jMkFcwaPrLFAk7ilCqqfaqg5ge0nqX1hWJjphbJUFVvW44d6PtLLwQpwA==",
+  "dgSpecHash": "mMniKdsOzHkxfdcxW0SxTL0jbteWiHPjdHIa5zdji8INJt2XY9EPCLOb21DjRbwuCMe1EJb81G4vPueBETjlfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\InsideTeamTraining\\Courses\\ASPdotNETCORE\\ASPdotNETCORE\\Assignment\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
+  "projectFilePath": "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\Desktop\\GitHub_Prac\\MyCourses\\ASPdotNETCORE\\Assignment\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VikramRaghu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\VikramRaghu\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

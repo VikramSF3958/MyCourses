@@ -10,6 +10,9 @@ namespace LibraryManagement.Models
         public IEnumerable<Bookcategories> GetBookCategories();
 
         public IEnumerable<Books> GetBooks();
+
         public Books GetBookById(int bookId);
+
+        public Books Add(Books book);
     }
 }

@@ -1,6 +1,7 @@
 ﻿using LibraryManagement.Models;
 using LibraryManagement.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -55,6 +56,26 @@ namespace LibraryManagement.Controllers
             return View("BookDetails", model);
         }
 
+        [HttpGet]
+        public IActionResult AddBook()
+        {
+            List<Bookcategories> item = new List<Bookcategories>();
+
+            item = (from c in _libraryRepository.GetBookCategories() select c).ToList();
+
+            item.Insert(0, new Bookcategories { Cateogoryid = 0, Cateogoryname = "Select" });
+
+            ViewBag.ItemList = item;
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult AddBook(Books book)
+        {
+            Books newBook = _libraryRepository.Add(book);
+            return RedirectToAction("GetBook", new { id = newBook.Bookid });
+        }
         public IActionResult Privacy()
         {
             return View();

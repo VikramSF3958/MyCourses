@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Books>
+
+@{  
+    ViewData["Title"] = "Home Page";
+}
+
+@*<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>*@
+
+<div class="text-center table-responsive">
+    <div>
+        <a href="#" class="btn btn-outline-primary col-3 float-lg-right buttonMargin">Add</a>
+    </div>
+    <table class="table table-hover table-borderedless">
+        <tr>
+            <th>Book Name</th>
+            <th>Author Name</th>
+            <th>Published Year</th>
+            <th>Price</th>
+            <th>Updated</th>
+            <th>Action</th>
+        </tr>
+        @foreach (var books in Model)
+        {
+            <tr>
+                <td>@books.Bookname</td>
+                @if (books.Authorname == null)
+                    {
+                        books.Authorname = "Not Available";
+                    }
+          
+                <td>@books.Authorname</td>
+                <td>@books.Publishedyear</td>
+                <td>@books.Price</td>
+                <td>@books.Updatedon.ToShortDateString()</td>
+                <td>
+                    <a asp-action="GetBook" asp-controller="home" asp-route-id="@books.Bookid" class="btn btn-outline-info buttonMargin">View</a>
+                    <a href="#" class="btn btn-outline-secondary buttonMargin disabled">Edit</a>
+                    <a href="#" class="btn btn-outline-danger buttonMargin disabled">Delete</a>
+                </td>
+
+            </tr>
+        }
+    </table>
+
+</div>

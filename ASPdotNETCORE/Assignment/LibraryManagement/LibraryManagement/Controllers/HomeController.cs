@@ -74,15 +74,28 @@ namespace LibraryManagement.Controllers
 
         [HttpPost]
         public IActionResult AddBook(Books book)
-        {   
-            if(book == null)
+        {
+            if (book == null)
             {
                 Response.StatusCode = 404;
                 ViewBag.Reason = "Data Empty";
-                return View("NotFoundPage", new { id = book.Bookid});
+                return View("NotFoundPage");
             }
+
+            var result = _libraryRepository.GetBooks().Where(e => e.Bookname == book.Bookname);
+            foreach (var val in result)
+            {
+                if (val.Bookname == book.Bookname)
+                {
+                    Response.StatusCode = 404;
+                    ViewBag.Reason = "Data Already Exists";
+                    return View("NotFoundPage");
+                }
+            }
+
             Books newBook = _libraryRepository.Add(book);
             return RedirectToAction("GetBook", new { id = newBook.Bookid });
+
         }
 
 

@@ -23,6 +23,7 @@ namespace LibraryManagement.Models
             }
 
             book.Bookid = _context.Books.Max( e=> e.Bookid) + 1;
+            book.Updatedon = DateTime.Now;
             _context.Books.Add(book);
             _context.SaveChanges();
             return book;
@@ -49,8 +50,17 @@ namespace LibraryManagement.Models
 
         public Books EditBooks(Books book)
         {
-            var updatedBook = _context.Books.Attach(book);
-            updatedBook.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            //var updatedBook = _context.Books.Attach(book);
+            //updatedBook.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+
+            Books rbook = _context.Books.Find(book.Bookid);
+            rbook.Bookname = book.Bookname;
+            rbook.Authorname = book.Authorname;
+            rbook.Bookcategoryid = book.Bookcategoryid;
+            rbook.Publishedyear = book.Publishedyear;
+            rbook.Price = book.Price;
+            rbook.Updatedon = DateTime.Now;
+
             _context.SaveChanges();
             return book;
         }
@@ -90,6 +100,37 @@ namespace LibraryManagement.Models
                         };
 
             return data;
+        }
+
+        public bool IsContains(Books books)
+        {   
+            //Result book
+            Books rbook = _context.Books.Find(books.Bookid);
+            
+            if( rbook.Bookname == books.Bookname &&
+                rbook.Authorname == books.Authorname && 
+                rbook.Bookcategoryid == books.Bookcategoryid && 
+                rbook.Publishedyear == books.Publishedyear && 
+                rbook.Price == books.Price
+                )
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public bool IsDuplicate(string bookName)
+        {
+            var result = _context.Books.Where(e => e.Bookname == bookName);
+            foreach (var val in result)
+            {
+                if (val.Bookname == bookName)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

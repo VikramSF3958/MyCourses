@@ -82,15 +82,11 @@ namespace LibraryManagement.Controllers
                 return View("NotFoundPage");
             }
 
-            var result = _libraryRepository.GetBooks().Where(e => e.Bookname == book.Bookname);
-            foreach (var val in result)
+            if(_libraryRepository.IsDuplicate(book.Bookname))
             {
-                if (val.Bookname == book.Bookname)
-                {
-                    Response.StatusCode = 404;
-                    ViewBag.Reason = "Data Already Exists";
-                    return View("NotFoundPage");
-                }
+                Response.StatusCode = 404;
+                ViewBag.Reason = "Data Already Exists";
+                return View("NotFoundPage");
             }
 
             Books newBook = _libraryRepository.Add(book);
@@ -117,6 +113,19 @@ namespace LibraryManagement.Controllers
         [HttpPost]
         public IActionResult EditBook(Books book)
         {
+            if (_libraryRepository.IsContains(book))
+            {
+                Response.StatusCode = 404;
+                ViewBag.Reason = "No Changes Made...!";
+                return View("NotFoundPage", book.Bookid);
+            }
+            else if (_libraryRepository.IsDuplicate(book.Bookname))
+            {
+                Response.StatusCode = 404;
+                ViewBag.Reason = "Data Already Exists";
+                return View("NotFoundPage");
+            }
+
             Books updatedBook = _libraryRepository.EditBooks(book);
             return RedirectToAction("GetBook", new { id = updatedBook.Bookid });
         }

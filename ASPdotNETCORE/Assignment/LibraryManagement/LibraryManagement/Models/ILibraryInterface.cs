@@ -8,6 +8,10 @@ namespace LibraryManagement.Models
 {
     public interface ILibraryInterface
     {
+        public bool IsDuplicate(string bookName);
+
+        public bool IsContains(Books books);
+
         public IEnumerable<Bookcategories> GetBookCategories();
 
         public IEnumerable<Books> GetBooks();

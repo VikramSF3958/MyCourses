@@ -28,12 +28,11 @@ namespace LibraryManagement.Controllers
         //}
         [Route("")]
         public IActionResult Index()
-        {   
+        {
             //Returning all non-deleted Books
-            IEnumerable<Books> book = _libraryRepository.GetBooks().Where( e => e.Isdeleted == false).OrderBy(e => e.Bookcategoryid).ThenBy( e=> e.Bookname);
+            IEnumerable<Books> book = _libraryRepository.GetBooks().Where(e => e.Isdeleted == false).OrderBy(e => e.Bookcategoryid).ThenBy(e => e.Bookname);
             return View(book);
         }
-
 
         public IActionResult GetBook(int id)
 
@@ -44,6 +43,7 @@ namespace LibraryManagement.Controllers
             if (book == null)
             {
                 Response.StatusCode = 404;
+                ViewBag.Reason = "Data Not Found";
                 return View("NotFoundPage", id);
             }
 
@@ -63,10 +63,9 @@ namespace LibraryManagement.Controllers
         {
             List<Bookcategories> item = new List<Bookcategories>();
 
-            item = (from c in _libraryRepository.GetBookCategories() select c).ToList();
-
+            //Adding Dropdown List
+            item = (from category in _libraryRepository.GetBookCategories() select category).ToList();
             item.Insert(0, new Bookcategories { Cateogoryid = 0, Cateogoryname = "Select" });
-
             ViewBag.ItemList = item;
 
             return View();
@@ -75,7 +74,13 @@ namespace LibraryManagement.Controllers
 
         [HttpPost]
         public IActionResult AddBook(Books book)
-        {
+        {   
+            if(book == null)
+            {
+                Response.StatusCode = 404;
+                ViewBag.Reason = "Data Empty";
+                return View("NotFoundPage", new { id = book.Bookid});
+            }
             Books newBook = _libraryRepository.Add(book);
             return RedirectToAction("GetBook", new { id = newBook.Bookid });
         }
@@ -86,10 +91,9 @@ namespace LibraryManagement.Controllers
         {
             List<Bookcategories> item = new List<Bookcategories>();
 
-            item = (from c in _libraryRepository.GetBookCategories() select c).ToList();
-
+            //Adding Dropdown list
+            item = (from category in _libraryRepository.GetBookCategories() select category).ToList();
             item.Insert(0, new Bookcategories { Cateogoryid = 0, Cateogoryname = "Select" });
-
             ViewBag.ItemList = item;
 
             Books books = _libraryRepository.GetBookById(id);
@@ -117,12 +121,6 @@ namespace LibraryManagement.Controllers
             };
 
             return View(model);
-        }
-
-
-        public IActionResult Privacy()
-        {
-            return View();
         }
 
 

@@ -14,5 +14,9 @@ namespace LibraryManagement.Models
         public Books GetBookById(int bookId);
 
         public Books Add(Books book);
+
+        public Books EditBooks(Books book);
+
+        public Books DeleteBook(int id);
     }
 }

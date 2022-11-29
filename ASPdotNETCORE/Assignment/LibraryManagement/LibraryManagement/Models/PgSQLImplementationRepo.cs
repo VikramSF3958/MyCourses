@@ -26,6 +26,27 @@ namespace LibraryManagement.Models
             return book;
         }
 
+        public Books DeleteBook(int id)
+        {
+            Books books = _context.Books.Find(id);
+
+            if(books!=null)
+            {
+                _context.Books.Remove(books);
+                _context.SaveChanges();
+            }
+
+            return books;
+        }
+
+        public Books EditBooks(Books book)
+        {
+            var updatedBook = _context.Books.Attach(book);
+            updatedBook.State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            _context.SaveChanges();
+            return book;
+        }
+
         public Books GetBookById(int bookId)
         {
             Books book = _context.Books.Find(bookId);

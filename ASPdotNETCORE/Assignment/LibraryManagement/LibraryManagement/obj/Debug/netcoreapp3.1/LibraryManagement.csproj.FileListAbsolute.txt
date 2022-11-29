@@ -47,3 +47,5 @@ C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotN
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\BookDetails.cshtml.g.cs
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\NotFoundPage.cshtml.g.cs
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddBook.cshtml.g.cs
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\EditBook.cshtml.g.cs
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\DeleteBook.cshtml.g.cs

@@ -34,6 +34,7 @@ namespace LibraryManagement.Controllers
             return View(book);
         }
 
+
         public IActionResult GetBook(int id)
 
         {
@@ -56,6 +57,7 @@ namespace LibraryManagement.Controllers
             return View("BookDetails", model);
         }
 
+
         [HttpGet]
         public IActionResult AddBook()
         {
@@ -70,16 +72,59 @@ namespace LibraryManagement.Controllers
             return View();
         }
 
+
         [HttpPost]
         public IActionResult AddBook(Books book)
         {
             Books newBook = _libraryRepository.Add(book);
             return RedirectToAction("GetBook", new { id = newBook.Bookid });
         }
+
+
+        [HttpGet]
+        public IActionResult EditBook(int id)
+        {
+            List<Bookcategories> item = new List<Bookcategories>();
+
+            item = (from c in _libraryRepository.GetBookCategories() select c).ToList();
+
+            item.Insert(0, new Bookcategories { Cateogoryid = 0, Cateogoryname = "Select" });
+
+            ViewBag.ItemList = item;
+
+            Books books = _libraryRepository.GetBookById(id);
+            return View(books);
+        }
+
+
+        [HttpPost]
+        public IActionResult EditBook(Books book)
+        {
+            Books updatedBook = _libraryRepository.EditBooks(book);
+            return RedirectToAction("GetBook", new { id = updatedBook.Bookid });
+        }
+
+        
+        public IActionResult DeleteBook(int id)
+        {
+            Books books = _libraryRepository.DeleteBook(id);
+
+            var categoryName = _libraryRepository.GetBookCategories().FirstOrDefault(e => e.Cateogoryid == books.Bookcategoryid);
+            BookViewModels model = new BookViewModels()
+            {
+                books = books,
+                CategoryName = categoryName.Cateogoryname
+            };
+
+            return View(model);
+        }
+
+
         public IActionResult Privacy()
         {
             return View();
         }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

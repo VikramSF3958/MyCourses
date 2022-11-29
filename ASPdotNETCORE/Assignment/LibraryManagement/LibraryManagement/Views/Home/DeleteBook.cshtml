@@ -1,0 +1,23 @@
+﻿@model BookViewModels
+
+@{
+    ViewBag.Title = "Delete Book";
+}
+
+<div class="alert alert-success">
+    <div class="card">
+        <div class="card-header bg-info">
+            <h2>Book Details</h2>
+        </div>
+        <div class="card-body ">
+            <h4>Book Name: @Model.books.Bookname</h4>
+            <h4>Author Name: @Model.books.Authorname</h4>
+            <h4>Published Year: @Model.books.Publishedyear</h4>
+            <h4>Price: @Model.books.Price</h4>
+            <h4>Category: @Model.CategoryName</h4>
+        </div>
+    </div>
+</div>
+<a asp-action="index" asp-controller="home" class="btn btn-outline-success" style="width:auto">
+    Click here to go to Home Page
+</a>

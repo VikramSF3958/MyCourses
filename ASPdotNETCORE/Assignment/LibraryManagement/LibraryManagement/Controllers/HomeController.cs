@@ -30,12 +30,12 @@ namespace LibraryManagement.Controllers
         public IActionResult Index()
         {
             //Returning all non-deleted Books
-            IEnumerable<Books> book = _libraryRepository.GetBooks().Where(e => e.Isdeleted == false).OrderBy(e => e.Bookcategoryid).ThenBy(e => e.Bookname);
-            return View(book);
+            IEnumerable<NewBookViewModel> model = _libraryRepository.GetViewBooks().Where(e => e.Isdeleted == false).OrderBy(e => e.Bookcategoryid).ThenBy(e => e.Bookname);
+            return View(model);
         }
 
-        public IActionResult GetBook(int id)
 
+        public IActionResult GetBook(int id)
         {
             Books book = _libraryRepository.GetBookById(id);
 
@@ -53,7 +53,7 @@ namespace LibraryManagement.Controllers
                 books = book,
                 CategoryName = categoryName.Cateogoryname
             };
-
+            ViewBag.Header = "Book Details";
             return View("BookDetails", model);
         }
 

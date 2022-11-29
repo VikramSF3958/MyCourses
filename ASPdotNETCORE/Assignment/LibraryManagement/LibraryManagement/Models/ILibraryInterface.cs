@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LibraryManagement.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,5 +19,7 @@ namespace LibraryManagement.Models
         public Books EditBooks(Books book);
 
         public Books DeleteBook(int id);
+
+        public IEnumerable<NewBookViewModel> GetViewBooks();
     }
 }

@@ -1,13 +1,9 @@
 ﻿using LibraryManagement.Models;
 using LibraryManagement.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.Extensions.Logging;
-using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Threading.Tasks;
 
 namespace LibraryManagement.Controllers
 {
@@ -15,17 +11,11 @@ namespace LibraryManagement.Controllers
     {
         private readonly ILibraryInterface _libraryRepository;
 
-        //private readonly ILogger<HomeController> _logger;
-
         public HomeController(ILibraryInterface libraryRepo)
         {
             _libraryRepository = libraryRepo;
         }
 
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
         [Route("")]
         public IActionResult Index()
         {
@@ -82,7 +72,7 @@ namespace LibraryManagement.Controllers
                 return View("NotFoundPage");
             }
 
-            if(_libraryRepository.IsDuplicate(book.Bookname))
+            if (_libraryRepository.IsDuplicate(book.Bookname))
             {
                 Response.StatusCode = 404;
                 ViewBag.Reason = "Data Already Exists";
@@ -130,7 +120,7 @@ namespace LibraryManagement.Controllers
             return RedirectToAction("GetBook", new { id = updatedBook.Bookid });
         }
 
-        
+
         public IActionResult DeleteBook(int id)
         {
             Books books = _libraryRepository.DeleteBook(id);

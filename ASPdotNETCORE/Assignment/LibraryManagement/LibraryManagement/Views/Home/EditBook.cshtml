@@ -2,7 +2,7 @@
 
 @{
     ViewBag.Title = "Edit Book";
- }
+}
 
 <form asp-controller="home" asp-action="EditBook" method="post">
     <div class="mb-3 mt-3 row">
@@ -32,7 +32,7 @@
 
     <div class="mb-3">
         <button type="submit" class="btn btn-outline-success col-4 buttonMargin active">Edit</button>
-        <a asp-action="EditBook" asp-controller="home" class="btn btn-outline-danger col-4 buttonMargin">Cancel</a>
+        <a asp-action="index" asp-controller="home" class="btn btn-outline-danger col-4 buttonMargin">Cancel</a>
     </div>
 
 </form>

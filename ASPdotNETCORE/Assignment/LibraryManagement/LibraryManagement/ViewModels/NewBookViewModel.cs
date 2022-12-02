@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace LibraryManagement.ViewModels
 {
-    public class NewBookViewModel 
+    public class NewBookViewModel
     {
         public int Bookid { get; set; }
         public string Bookname { get; set; }

@@ -1,0 +1,15 @@
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\bin\Debug\net6.0\Exercise3.exe
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\bin\Debug\net6.0\Exercise3.deps.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\bin\Debug\net6.0\Exercise3.runtimeconfig.json
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\bin\Debug\net6.0\Exercise3.dll
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\bin\Debug\net6.0\Exercise3.pdb
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\obj\Debug\net6.0\Exercise3.csproj.AssemblyReference.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\obj\Debug\net6.0\Exercise3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\obj\Debug\net6.0\Exercise3.AssemblyInfoInputs.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\obj\Debug\net6.0\Exercise3.AssemblyInfo.cs
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\obj\Debug\net6.0\Exercise3.csproj.CoreCompileInputs.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\obj\Debug\net6.0\Exercise3.dll
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\obj\Debug\net6.0\refint\Exercise3.dll
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\obj\Debug\net6.0\Exercise3.pdb
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\obj\Debug\net6.0\Exercise3.genruntimeconfig.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\C#\11_LinqQueries\Exercise3\obj\Debug\net6.0\ref\Exercise3.dll

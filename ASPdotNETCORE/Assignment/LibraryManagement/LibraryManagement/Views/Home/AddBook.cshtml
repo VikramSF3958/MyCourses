@@ -28,6 +28,7 @@
     </div>
 
     <div class="mb-3">
+        <label asp-for="Bookcategoryid" class="float-left">Book Category: </label>
         <select asp-for="Bookcategoryid" class="form-control "
                 asp-items="@(new SelectList(ViewBag.ItemList, "Cateogoryid", "Cateogoryname"))">
         </select>

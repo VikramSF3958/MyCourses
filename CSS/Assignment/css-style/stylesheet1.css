@@ -1,0 +1,250 @@
+*
+{
+    box-sizing: border-box;
+}
+body 
+{   
+    background-color: grey;
+    padding: auto;
+    padding-top: 7vw;
+}
+a{
+    text-decoration: none;
+}
+
+
+h1{ 
+    margin-top: 0.1px;
+    margin-left: 20px;
+    font-size: 1.3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:100px;
+    color: white;
+}
+
+#social-media-description
+{   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.6em;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+
+#login-description
+{
+    font-size: 0.8em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    margin-left: 23px;
+    margin-top: 80px;
+}
+
+#login-info
+{
+    font-size: 0.6em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #9b3b46;
+    margin-left: 23px;
+    margin-right: 3px;
+}
+
+#login-info a
+{
+    color:#1da1f2;
+}
+
+#username
+{
+    margin-left: 23px;
+    margin-right: auto;
+    width: 85%;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+#username:hover, #password:hover
+{
+    cursor: text;
+    border-color: #1da1f2;
+    box-shadow: #1da1f2;
+}
+
+#password
+{
+    margin-left: 23px;
+    margin-right: auto;
+    width: 85%;
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+}
+
+#login-button
+{
+    display: block;
+    margin-top: 5px;
+    margin-left: 23px;
+    padding: 10px;
+    background-color: #f4364f;
+    border: none;
+    border-radius: 3px;
+    color: whitesmoke;
+    width: 80px;
+}
+
+#fb
+{
+    background-color:#3b5998;
+    color: white;
+    max-width: 250px;
+    padding-bottom: 3px;
+    margin-left:20px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+
+}
+
+#fb a
+{   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    margin: auto;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+#google
+{
+    background-color:#dd4b39;
+    color: white;
+    max-width: 250px;
+    padding: 2px;
+    padding-bottom: 3px;
+    margin-left:20px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+}
+
+#google a{
+     
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    margin: auto;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+#twitter
+{
+    background-color:#1da1f2;
+    color: white;
+    max-width: 250px;
+    padding: 2px;
+    margin-left:20px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+}
+
+#twitter a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    margin: auto;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.social-media-links
+{
+    text-decoration-line: none;
+}
+
+.RememberMe
+{
+    font-size: 0.7em;
+    position:relative;
+    left: -8%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.login-checkbox
+{
+    max-width: 55px;
+}
+
+.footer-links
+{   
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.6em;
+    margin-left: 23px;
+    color: #9b3b46;
+}
+
+a
+{
+   color: #9b3b46;
+}
+
+a:hover
+{
+    color: skyblue;
+}
+
+input
+{
+    border: 1px solid grey;
+    border-color: grey;
+    border-radius: 4px;
+    background-color: rgb(241, 240, 240);
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 60%;
+    cursor: pointer;
+}
+
+img
+{
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-bottom: 1px;
+  width: 150px;
+}
+
+hr{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid white;
+}
+
+
+.container
+{   
+
+    max-width: 640px;
+    min-height: 420px;  
+    margin: auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section
+{
+    background-color:#9b3b46;
+    font-size:1.5em;
+    padding: 5px;
+}
+
+.section:last-child
+{
+    background-color: white;
+}
+

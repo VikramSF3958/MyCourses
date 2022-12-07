@@ -55,7 +55,7 @@ namespace LibraryManagement.Controllers
 
             //Adding Dropdown List
             item = (from category in _libraryRepository.GetBookCategories() select category).ToList();
-            item.Insert(0, new Bookcategories { Cateogoryid = 0, Cateogoryname = "Select" });
+            item.Insert(0, new Bookcategories { Cateogoryid = 0, Cateogoryname = "Choose Category" });
             ViewBag.ItemList = item;
 
             return View();
@@ -74,7 +74,7 @@ namespace LibraryManagement.Controllers
 
             if (_libraryRepository.IsDuplicate(book.Bookname))
             {
-                Response.StatusCode = 404;
+                Response.StatusCode = 304; //Not Modified
                 ViewBag.Reason = "Data Already Exists";
                 return View("NotFoundPage");
             }

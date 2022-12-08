@@ -16,9 +16,9 @@ namespace OrderCalculator
             obj.Country = System.Console.ReadLine();
 
             //Output
-            var result = obj.OrderTotalPrice();
+            //var result = obj.OrderTotalPrice("");
 
-            System.Console.WriteLine(result);
+            //System.Console.WriteLine(result);
 
         }
     }

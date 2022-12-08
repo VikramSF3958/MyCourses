@@ -36,7 +36,7 @@
                 <td>
                     <a asp-action="GetBook" asp-controller="home" asp-route-id="@books.Bookid" class="btn btn-outline-info buttonMargin">View</a>
                     <a asp-action="EditBook" asp-controller="home" asp-route-id="@books.Bookid" class="btn btn-outline-secondary buttonMargin">Edit</a>
-                    <a asp-action="DeleteBook" asp-controller="home" asp-route-id="@books.Bookid" class="btn btn-outline-danger buttonMargin" onclick="myFunction()">Delete</a>
+                    <a asp-action="DeleteBook" asp-controller="home" asp-route-id="@books.Bookid" class="btn btn-outline-danger buttonMargin" onclick="return confirm('Do you want delete this record ?')">Delete</a>
                 </td>
 
             </tr>
@@ -47,6 +47,16 @@
 
 <script>
     function myFunction() {
-        alert("Book Deleted Successfully!, Click To view the Book");
+        //if (confirm("Do you want delete this record ?")) {
+
+        //    alert("Book Deleted Successfully!, Click To view the Book");
+        //    return true;
+        //}
+        //else
+        //{
+        //    alert("Book is not deleted");
+        //    return false;
+        //}
+       
     }
 </script>

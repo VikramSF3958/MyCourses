@@ -1,11 +1,16 @@
 ﻿
 using System;
+using System.Collections.Generic;
 
 namespace OrderCalculator
 {
     public class OrderTotal
     {
-       
+        public static List<string> Countries = new List<string>()
+        {
+            "India", "United States", "Australia", "Russia"
+        };
+
         public int Price1 { get; set; }
 
         public int Price2 { get; set; }
@@ -55,51 +60,60 @@ namespace OrderCalculator
 
         }
 
-        public  bool getCountryName(dynamic lCountry)
+        public  bool getCountryName(dynamic countryName)
         {
-            int temp;
-            double temp1;
-            bool result = int.TryParse(Convert.ToString(lCountry), out temp);
-            bool result1 = double.TryParse(Convert.ToString(lCountry), out temp1);
-
-            if(lCountry!=null || (result && result1))
+            if(countryName != null)
             {
-                Country = Convert.ToString(lCountry);
-                return true;
+               if(Countries.Contains(countryName))
+                {
+                    return true;
+                }
+                return false;
             }
             return false;
            
         }
 
-        public bool IsTaxApplicable()
+        public bool forDiscount()
         {
-            if (Country == "India")
+
+            if (Country == "United States")
             {
-                ProductTotal = (Price1 + Price2) - Discount;
+                ProductTotal = (Price1 + Price2);
                 return true;
-            }
-            else if (Country != "United States")
-            {
-                ProductTotal = (Price1 + Price2) - Discount;
             }
             else 
             {
-                ProductTotal = Price1 + Price2;
+                ProductTotal = (Price1 + Price2) - Discount;
+                return false;
+            }
+        }
+
+        public bool IsTaxApplicable(string CountryName)
+        {   
+            if(Countries.Contains(CountryName))
+            {
+                double taxAmount;
+                if(CountryName == "India")
+                {
+                    taxAmount = ProductTotal * 0.05;
+                    return true;
+                }
             }
             return false;
         }
 
-        public int OrderTotalPrice()
+        public bool OrderTotalPrice(string countryName)
         {
             int total;
-            if (IsTaxApplicable())
+            if (IsTaxApplicable(countryName))
             {
                 total = (int)(ProductTotal - (ProductTotal * 0.05));
-                return total;
+                return true;
             }
             else
             {
-                return ProductTotal; 
+                return false; 
             }
         }
     }

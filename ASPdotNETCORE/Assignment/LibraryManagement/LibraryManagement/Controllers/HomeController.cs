@@ -65,23 +65,41 @@ namespace LibraryManagement.Controllers
         [HttpPost]
         public IActionResult AddBook(Books book)
         {
-            if (book == null)
+           if(ModelState.IsValid)
             {
-                Response.StatusCode = 404;
-                ViewBag.Reason = "Data Empty";
-                return View("NotFoundPage");
+                if (book == null)
+                {
+                    Response.StatusCode = 404;
+                    ViewBag.Reason = "Data Empty";
+                    return View("NotFoundPage");
+                }
+
+                if(book.Bookcategoryid == 0)
+                {
+                    Response.StatusCode = 404;
+                    ViewBag.Reason = "No Such Category";
+                    return View("NotFoundPage");
+                }
+
+                if (_libraryRepository.IsDuplicate(book.Bookname))
+                {
+                    Response.StatusCode = 404; //Not Modified
+                    ViewBag.Reason = "Data Already Exists";
+                    return View("NotFoundPage");
+                }
+
+                Books newBook = _libraryRepository.Add(book);
+                return RedirectToAction("GetBook", new { id = newBook.Bookid });
             }
 
-            if (_libraryRepository.IsDuplicate(book.Bookname))
-            {
-                Response.StatusCode = 304; //Not Modified
-                ViewBag.Reason = "Data Already Exists";
-                return View("NotFoundPage");
-            }
+            List<Bookcategories> item = new List<Bookcategories>();
 
-            Books newBook = _libraryRepository.Add(book);
-            return RedirectToAction("GetBook", new { id = newBook.Bookid });
+            //Adding Dropdown List
+            item = (from category in _libraryRepository.GetBookCategories() select category).ToList();
+            item.Insert(0, new Bookcategories { Cateogoryid = 0, Cateogoryname = "Choose Category" });
+            ViewBag.ItemList = item;
 
+            return View();
         }
 
 
@@ -103,21 +121,33 @@ namespace LibraryManagement.Controllers
         [HttpPost]
         public IActionResult EditBook(Books book)
         {
-            if (_libraryRepository.IsContains(book))
+           if(ModelState.IsValid)
             {
-                Response.StatusCode = 404;
-                ViewBag.Reason = "No Changes Made...!";
-                return View("NotFoundPage", book.Bookid);
-            }
-            else if (_libraryRepository.IsDuplicate(book.Bookname))
-            {
-                Response.StatusCode = 404;
-                ViewBag.Reason = "Data Already Exists";
-                return View("NotFoundPage");
+                if (_libraryRepository.IsContains(book))
+                {
+                    Response.StatusCode = 404;
+                    ViewBag.Reason = "No Changes Made...!";
+                    return View("NotFoundPage", book.Bookid);
+                }
+                else if (_libraryRepository.IsDuplicate(book.Bookname))
+                {
+                    Response.StatusCode = 404;
+                    ViewBag.Reason = "Data Already Exists";
+                    return View("NotFoundPage");
+                }
+
+                Books updatedBook = _libraryRepository.EditBooks(book);
+                return RedirectToAction("GetBook", new { id = updatedBook.Bookid });
             }
 
-            Books updatedBook = _libraryRepository.EditBooks(book);
-            return RedirectToAction("GetBook", new { id = updatedBook.Bookid });
+            List<Bookcategories> item = new List<Bookcategories>();
+
+            //Adding Dropdown list
+            item = (from category in _libraryRepository.GetBookCategories() select category).ToList();
+            item.Insert(0, new Bookcategories { Cateogoryid = 0, Cateogoryname = "Select" });
+            ViewBag.ItemList = item;
+
+            return View(book);
         }
 
 

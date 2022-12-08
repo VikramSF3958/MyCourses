@@ -16,7 +16,6 @@ C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotN
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\bin\Debug\netcoreapp3.1\Npgsql.dll
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.csproj.AssemblyReference.cache
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.AssemblyInfoInputs.cache
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.AssemblyInfo.cs
@@ -30,7 +29,12 @@ C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotN
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.TagHelpers.input.cache
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.TagHelpers.output.cache
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.RazorCoreGenerate.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddBook.cshtml.g.cs
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\BookDetails.cshtml.g.cs
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\DeleteBook.cshtml.g.cs
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\EditBook.cshtml.g.cs
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\NotFoundPage.cshtml.g.cs
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -43,8 +47,4 @@ C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotN
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.dll
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.pdb
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.genruntimeconfig.cache
-C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\BookDetails.cshtml.g.cs
-C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\NotFoundPage.cshtml.g.cs
-C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddBook.cshtml.g.cs
-C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\EditBook.cshtml.g.cs
-C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\Razor\Views\Home\DeleteBook.cshtml.g.cs
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.csproj.AssemblyReference.cache

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mMniKdsOzHkxfdcxW0SxTL0jbteWiHPjdHIa5zdji8INJt2XY9EPCLOb21DjRbwuCMe1EJb81G4vPueBETjlfQ==",
+  "dgSpecHash": "9jhtobMDSdPwtovNMmCR3AkBhPH75qQXLzG05nZXOgdHbVG13L8kc6Furvtk31uZqNqeXs428iy2v7R4mfs05Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\Desktop\\GitHub_Prac\\MyCourses\\ASPdotNETCORE\\Assignment\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\VikramRaghu\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.0\\microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512",
     "C:\\Users\\VikramRaghu\\.nuget\\packages\\microsoft.extensions.options\\3.1.0\\microsoft.extensions.options.3.1.0.nupkg.sha512",
     "C:\\Users\\VikramRaghu\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.0\\microsoft.extensions.primitives.3.1.0.nupkg.sha512",
+    "C:\\Users\\VikramRaghu\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\VikramRaghu\\.nuget\\packages\\npgsql\\4.1.2\\npgsql.4.1.2.nupkg.sha512",
     "C:\\Users\\VikramRaghu\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\3.1.0\\npgsql.entityframeworkcore.postgresql.3.1.0.nupkg.sha512",
     "C:\\Users\\VikramRaghu\\.nuget\\packages\\system.collections.immutable\\1.7.0\\system.collections.immutable.1.7.0.nupkg.sha512",

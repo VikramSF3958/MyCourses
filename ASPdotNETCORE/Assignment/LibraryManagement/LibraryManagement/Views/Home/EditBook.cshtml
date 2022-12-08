@@ -4,34 +4,40 @@
     ViewBag.Title = "Edit Book";
 }
 
-<form asp-controller="home" asp-action="EditBook" method="post">
-    <div class="mb-3 mt-3 row">
+<form asp-controller="home" asp-action="EditBook" method="post" class="was-validated">
+    <div><div class="mb-3 mt-3">
         <input asp-for="Bookid" value="@Model.Bookid" hidden />
-        <div class="col">
+        <div class="col-5">
             <label asp-for="Bookname" class="float-left">Book Name: </label>
             <input type="text" id="Bookname" class="form-control" placeholder="Enter Book Name" asp-for="Bookname" value="@Model.Bookname" required />
-        </div>
-        <div class="col">
-            <label asp-for="Authorname" class="float-left">Author Name: </label>
-            <input type="text" id="Authorname" class="form-control" placeholder="Enter Author Name" asp-for="Authorname" value="@Model.Authorname" required />
+            <span asp-validation-for="Bookname" class="text-danger"></span>
+            <div class="valid-feedback">Valid.</div>
+            <div class="invalid-feedback">Please fill out this field.</div>
         </div>
     </div>
-    <div class="mb-3">
+    <div class="mb-3 col-5">
+        <label asp-for="Authorname" class="float-left">Author Name: </label>
+        <input type="text" id="Authorname" class="form-control" placeholder="Enter Author Name" asp-for="Authorname" value="@Model.Authorname" required />
+        <span asp-validation-for="Authorname" class="text-danger"></span>
+    </div>
+    <div class="mb-3 col-5">
         <label asp-for="Publishedyear" class="float-left">Published Year: </label>
         <input type="number" id="Publishedyear" class="form-control" placeholder="Enter Published Year" asp-for="Publishedyear" value="@Model.Publishedyear" />
+        <span asp-validation-for="Publishedyear" class="text-danger"></span>
     </div>
-    <div class="mb-3">
+    <div class="mb-3 col-5">
         <label asp-for="Price" class="float-left">Book Price: </label>
         <input type="number" id="Price" class="form-control" placeholder="Enter Book Price" asp-for="Price" value="@Model.Price" />
     </div>
-    <div class="mb-3">
+    <div class="mb-3 col-5">
+        <label asp-for="Bookcategoryid" class="float-left">Book Category: </label>
         <select asp-for="Bookcategoryid" class="form-control "
                 asp-items="@(new SelectList(ViewBag.ItemList, "Cateogoryid", "Cateogoryname"))">
         </select>
-    </div>
+    </div></div>
 
-    <div class="mb-3">
-        <button type="submit" class="btn btn-outline-success col-4 buttonMargin active">Edit</button>
+    <div class="mb-3 col-5">
+        <button type="submit" class="btn btn-outline-success col-4 buttonMargin active">Update</button>
         <a asp-action="index" asp-controller="home" class="btn btn-outline-danger col-4 buttonMargin">Cancel</a>
     </div>
 

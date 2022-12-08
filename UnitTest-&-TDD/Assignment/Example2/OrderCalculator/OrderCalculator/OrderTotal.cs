@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace OrderCalculator
 {
     public class OrderTotal
@@ -14,35 +16,59 @@ namespace OrderCalculator
 
         public int ProductTotal { get; set; }
 
-        public  int getPrices(int lPrice1, int lPrice2)
+        public  int getPrices(dynamic lPrice1, dynamic lPrice2)
         {
+            int tempPrice1, tempPrice2;
+            bool result1 = int.TryParse(Convert.ToString(lPrice1), out tempPrice1);
+            bool result2 = int.TryParse(Convert.ToString(lPrice2), out tempPrice2);
             
-            if (lPrice1 >= 0 && lPrice2 >= 0)
+
+            if((lPrice1!=null && result1) && (lPrice2!=null && result2))
             {
-                Price1 = lPrice1;
-                Price2 = lPrice2;
-                return 1;
+                if (tempPrice1 >= 0 && tempPrice2 >= 0)
+                {
+                    Price1 = tempPrice1;
+                    Price2 = tempPrice1;
+                    return 1;
+                }
             }
+
             return 0;
 
         }
 
-        public  int getDiscount(int lDiscount)
+        public  int getDiscount(dynamic lDiscount)
         {
+            int tempDiscount;
+            bool result = int.TryParse(Convert.ToString(lDiscount), out tempDiscount);
 
-            if (lDiscount >= 0 && lDiscount <= 100)
+            if(lDiscount!=null && result)
             {
-                Discount = lDiscount;
-                return Discount;
+                if (lDiscount >= 0 && lDiscount <= 100)
+                {
+                    Discount = tempDiscount;
+                    return Discount;
+                }
             }
+
             return 0;
 
         }
 
-        public  bool getCountryName(string lCountry)
+        public  bool getCountryName(dynamic lCountry)
         {
-            Country = lCountry;
-            return true;
+            int temp;
+            double temp1;
+            bool result = int.TryParse(Convert.ToString(lCountry), out temp);
+            bool result1 = double.TryParse(Convert.ToString(lCountry), out temp1);
+
+            if(lCountry!=null || (result && result1))
+            {
+                Country = Convert.ToString(lCountry);
+                return true;
+            }
+            return false;
+           
         }
 
         public bool IsTaxApplicable()

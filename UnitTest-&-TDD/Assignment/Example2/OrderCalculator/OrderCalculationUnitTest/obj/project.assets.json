@@ -6136,11 +6136,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\InsideTeamTraining\\Courses\\UnitTest-&-TDD\\Assignment\\Example2\\OrderCalculator\\OrderCalculationUnitTest\\OrderCalculationUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\Desktop\\GitHub_Prac\\MyCourses\\UnitTest-&-TDD\\Assignment\\Example2\\OrderCalculator\\OrderCalculationUnitTest\\OrderCalculationUnitTest.csproj",
       "projectName": "OrderCalculationUnitTest",
-      "projectPath": "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\InsideTeamTraining\\Courses\\UnitTest-&-TDD\\Assignment\\Example2\\OrderCalculator\\OrderCalculationUnitTest\\OrderCalculationUnitTest.csproj",
+      "projectPath": "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\Desktop\\GitHub_Prac\\MyCourses\\UnitTest-&-TDD\\Assignment\\Example2\\OrderCalculator\\OrderCalculationUnitTest\\OrderCalculationUnitTest.csproj",
       "packagesPath": "C:\\Users\\VikramRaghu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\InsideTeamTraining\\Courses\\UnitTest-&-TDD\\Assignment\\Example2\\OrderCalculator\\OrderCalculationUnitTest\\obj\\",
+      "outputPath": "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\Desktop\\GitHub_Prac\\MyCourses\\UnitTest-&-TDD\\Assignment\\Example2\\OrderCalculator\\OrderCalculationUnitTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6161,8 +6161,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\InsideTeamTraining\\Courses\\UnitTest-&-TDD\\Assignment\\Example2\\OrderCalculator\\OrderCalculator\\OrderCalculator.csproj": {
-              "projectPath": "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\InsideTeamTraining\\Courses\\UnitTest-&-TDD\\Assignment\\Example2\\OrderCalculator\\OrderCalculator\\OrderCalculator.csproj"
+            "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\Desktop\\GitHub_Prac\\MyCourses\\UnitTest-&-TDD\\Assignment\\Example2\\OrderCalculator\\OrderCalculator\\OrderCalculator.csproj": {
+              "projectPath": "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\Desktop\\GitHub_Prac\\MyCourses\\UnitTest-&-TDD\\Assignment\\Example2\\OrderCalculator\\OrderCalculator\\OrderCalculator.csproj"
             }
           }
         }
@@ -6209,7 +6209,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
       }
     }
   }

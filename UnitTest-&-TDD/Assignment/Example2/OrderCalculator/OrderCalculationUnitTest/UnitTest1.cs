@@ -10,8 +10,8 @@ namespace OrderCalculationUnitTest
         public void getPrices_inputPrice_IsInteger()
         {
             //Arrange
-            var Price1 = 10;
-            var Price2 = 11;
+            var Price1 = "12";
+            var Price2 = "11";
 
             //Act
             OrderTotal obj = new OrderTotal();

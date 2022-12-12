@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  postgresql_database:
+    image: postgres:latest
+    environment:
+          - POSTGRES_USER=postgres
+          - POSTGRES_PASSWORD=postgres
+          - POSTGRES_DB=library
+    ports:
+      - "5432"
+    restart: unless-stopped
+    volumes:
+      - database-data:/var/lib/postgresql/data/
+      - ./db/db.sql:/docker-entrypoint-initdb.d/db.sql
+
+  syncfusion-library-management:
+    image: syncfusion/try/library-management:1
+    ports:
+      - "5000:80"
+    depends_on:
+      - "postgresql_database"
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+
+volumes:
+  database-data:

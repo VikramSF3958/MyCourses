@@ -48,3 +48,4 @@ C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotN
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.pdb
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.genruntimeconfig.cache
 C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\obj\Debug\netcoreapp3.1\LibraryManagement.csproj.AssemblyReference.cache
+C:\Users\VikramRaghu\OneDrive - Syncfusion\Desktop\GitHub_Prac\MyCourses\ASPdotNETCORE\Assignment\LibraryManagement\LibraryManagement\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll

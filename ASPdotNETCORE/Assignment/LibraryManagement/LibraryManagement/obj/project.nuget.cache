@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9jhtobMDSdPwtovNMmCR3AkBhPH75qQXLzG05nZXOgdHbVG13L8kc6Furvtk31uZqNqeXs428iy2v7R4mfs05Q==",
+  "dgSpecHash": "VhcR2cJIparz9U58+hcALI0oBosRZFyezdvNhkDn9B1lfEi+z9ezt8Sym7i1rmBis6S8WQzKM2se0p78nwYTqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\VikramRaghu\\OneDrive - Syncfusion\\Desktop\\GitHub_Prac\\MyCourses\\ASPdotNETCORE\\Assignment\\LibraryManagement\\LibraryManagement\\LibraryManagement.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\VikramRaghu\\.nuget\\packages\\microsoft.aspnetcore.diagnostics.entityframeworkcore\\3.1.0\\microsoft.aspnetcore.diagnostics.entityframeworkcore.3.1.0.nupkg.sha512",
     "C:\\Users\\VikramRaghu\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\VikramRaghu\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\VikramRaghu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

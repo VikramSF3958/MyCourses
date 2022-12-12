@@ -1,0 +1,18 @@
+version: '2'
+
+services:
+  db:
+     image: syncfusion/postgresdb
+     restart: always
+     build:
+       context: .
+       dockerfile: Dockerfile
+     ports:
+       - 5432:5432
+     environment:
+         POSTGRES_PASSWORD: postgres
+     volumes:
+       - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

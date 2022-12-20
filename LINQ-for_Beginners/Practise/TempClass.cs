@@ -22,6 +22,8 @@ namespace Practise
 
             student.Add(new TempClass(){Name = "Yuva", Id=21, Phone=5677843});
 
+            student.Add(new TempClass() { Name = "Krithi Jr", Id = 1811, Phone = 18110701 });
+
             return student;
         }
     }

@@ -1,0 +1,8 @@
+
+*.json
+*.cache
+LINQ-for_Beginners/Practise/obj/Practise.csproj.nuget.dgspec.json
+LINQ-for_Beginners/Practise/obj/Practise.csproj.nuget.g.props
+LINQ-for_Beginners/Practise/obj/project.nuget.cache
+LINQ-for_Beginners/Practise/obj/project.assets.json
+LINQ-for_Beginners/Practise/obj/Practise.csproj.nuget.g.targets
